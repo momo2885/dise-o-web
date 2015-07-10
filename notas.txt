@@ -1,0 +1,3 @@
+- En este repositorio del GitHub encuentras todo el código del proyecto:
+
+   https://github.com/mejorandolaclase/mejorandocurso/tree/master/mejorandoweb/clase1
