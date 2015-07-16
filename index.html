@@ -2,12 +2,13 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
-	<meta description="proyecto de diseño web online" />
-	<title></title>
+	<meta name="description" content="proyecto de diseño web online" />
+	<title>Curso de diseño web</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 <header>
-	//figure es solo una caja en html5
 	<figure id="logo">
 		<img src="images/logo.png" />
 	</figure>
@@ -19,21 +20,21 @@
 <nav>
 	<ul>
 		<li><a href="#">Python</a></li>
-		<li><a href="#">Html</li>
+		<li><a href="#">Html</a></li>
 		<li><a href="#">Css</a></li>
-		<li><a href="">Javascript</a></li>
+		<li><a href="#">Javascript</a></li>
 		<li id="publicar_nav">
 			<a href="#">Publicar</a>
 		</li>
 	</ul>
 </nav>
 <section id="contenido">
-	<article id="item">
-		<figure>
+	<article class="item">
+		<figure class="imagen_item">
 			<img src="images/imagen.jpg" />
 		</figure>
-		<h2>
-			<a href="#">titulo del articulo</a>
+		<h2 class="titulo_item">
+			<a href="#">Flash CC no soporta AS2. Último adiós después de más de diez años</a>
 		</h2>
 		<div class="autor_item">
 			por<a href="#">Joana Muños</a>
@@ -43,14 +44,168 @@
 			<span class="fecha_item">
 				hace<strong>5</strong>min
 			</span>
-			<a href="#" class="comentarios_item">69</a>
-			<a href="#" class="guardar_item"></a>
 		</div>
 		<div class="votacion">
-			<a href="#" class="up">Pony</a>
+			<a href="#" class="up">a</a>
 			720
-			<a href="#" class="down">Pony</a>
+			<a href="#" class="down">d</a>
+			<a href="#" class="comentarios_item">3</a>
+			<a href="#" class="guardar_item">x</a>
+		</div>
+	</article>
 
+	<article class="item">
+		<figure class="imagen_item">
+			<img src="images/imagen.jpg" />
+		</figure>
+		<h2 class="titulo_item">
+			<a href="#">Flash CC no soporta AS2. Último adiós después de más de diez años</a>
+		</h2>
+		<div class="autor_item">
+			por<a href="#">Joana Muños</a>
+		</div>
+		<div class="datos_item">
+			<a href="#" class="tag_item">Pony</a>
+			<span class="fecha_item">
+				hace<strong>5</strong>min
+			</span>
+		</div>
+		<div class="votacion">
+			<a href="#" class="up">a</a>
+			720
+			<a href="#" class="down">d</a>
+			<a href="#" class="comentarios_item">3</a>
+			<a href="#" class="guardar_item">x</a>
+		</div>
+
+	</article>
+
+	<article class="item">
+		<figure class="imagen_item">
+			<img src="images/imagen.jpg" />
+		</figure>
+		<h2 class="titulo_item">
+			<a href="#">Flash CC no soporta AS2. Último adiós después de más de diez años</a>
+		</h2>
+		<div class="autor_item">
+			por<a href="#">Joana Muños</a>
+		</div>
+		<div class="datos_item">
+			<a href="#" class="tag_item">Pony</a>
+			<span class="fecha_item">
+				hace<strong>5</strong>min
+			</span>
+		</div>
+		<div class="votacion">
+			<a href="#" class="up">a</a>
+			720
+			<a href="#" class="down">d</a>
+			<a href="#" class="comentarios_item">3</a>
+			<a href="#" class="guardar_item">x</a>
+		</div>
+
+	</article>
+
+	<article class="item">
+		<figure class="imagen_item">
+			<img src="images/imagen.jpg" />
+		</figure>
+		<h2 class="titulo_item">
+			<a href="#">Flash CC no soporta AS2. Último adiós después de más de diez años</a>
+		</h2>
+		<div class="autor_item">
+			por<a href="#">Joana Muños</a>
+		</div>
+		<div class="datos_item">
+			<a href="#" class="tag_item">Pony</a>
+			<span class="fecha_item">
+				hace<strong>5</strong>min
+			</span>
+		</div>
+		<div class="votacion">
+			<a href="#" class="up">a</a>
+			720
+			<a href="#" class="down">d</a>
+			<a href="#" class="comentarios_item">3</a>
+			<a href="#" class="guardar_item">x</a>
+		</div>
+
+	</article>
+
+	<article class="item">
+		<figure class="imagen_item">
+			<img src="images/imagen.jpg" />
+		</figure>
+		<h2 class="titulo_item">
+			<a href="#">Flash CC no soporta AS2. Último adiós después de más de diez años</a>
+		</h2>
+		<div class="autor_item">
+			por<a href="#">Joana Muños</a>
+		</div>
+		<div class="datos_item">
+			<a href="#" class="tag_item">Pony</a>
+			<span class="fecha_item">
+				hace<strong>5</strong>min
+			</span>
+		</div>
+		<div class="votacion">
+			<a href="#" class="up">a</a>
+			720
+			<a href="#" class="down">d</a>
+			<a href="#" class="comentarios_item">3</a>
+			<a href="#" class="guardar_item">x</a>
+		</div>
+
+	</article>
+
+	<article class="item">
+		<figure class="imagen_item">
+			<img src="images/imagen.jpg" />
+		</figure>
+		<h2 class="titulo_item">
+			<a href="#">Flash CC no soporta AS2. Último adiós después de más de diez años</a>
+		</h2>
+		<div class="autor_item">
+			por<a href="#">Joana Muños</a>
+		</div>
+		<div class="datos_item">
+			<a href="#" class="tag_item">Pony</a>
+			<span class="fecha_item">
+				hace<strong>5</strong>min
+			</span>
+		</div>
+		<div class="votacion">
+			<a href="#" class="up">a</a>
+			720
+			<a href="#" class="down">d</a>
+			<a href="#" class="comentarios_item">3</a>
+			<a href="#" class="guardar_item">x</a>
+		</div>
+
+	</article>
+
+	<article class="item">
+		<figure class="imagen_item">
+			<img src="images/imagen.jpg" />
+		</figure>
+		<h2 class="titulo_item">
+			<a href="#">Flash CC no soporta AS2. Último adiós después de más de diez años</a>
+		</h2>
+		<div class="autor_item">
+			por<a href="#">Joana Muños</a>
+		</div>
+		<div class="datos_item">
+			<a href="#" class="tag_item">Pony</a>
+			<span class="fecha_item">
+				hace<strong>5</strong>min
+			</span>
+		</div>
+		<div class="votacion">
+			<a href="#" class="up">a</a>
+			720
+			<a href="#" class="down">d</a>
+			<a href="#" class="comentarios_item">3</a>
+			<a href="#" class="guardar_item">x</a>
 		</div>
 
 	</article>
